@@ -104,3 +104,14 @@ footer{background:#0B2238;text-align:center;color:white}
   .hero h2{font-size:22px}
   nav a{display:inline-block;font-size:14px}
 }
+nav a.active {
+    color: #16A34A;
+}
+
+.gallery img {
+    transition: 0.35s;
+}
+
+section {
+    transition: all 0.8s ease;
+}
