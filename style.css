@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f1115;
+  color: white;
+}
+
+.hero {
+  min-height: 85vh;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.overlay h1 {
+  font-size: 64px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.overlay p {
+  font-size: 24px;
+  margin: 25px 0;
+  color: #d1d5db;
+}
+
+.btn, .phone {
+  display: inline-block;
+  background: #f59e0b;
+  color: #111;
+  padding: 16px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  max-width: 800px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+.services {
+  background: #161a22;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 40px auto 0;
+}
+
+.grid div {
+  background: #222938;
+  padding: 30px;
+  border-radius: 14px;
+  font-size: 35px;
+}
+
+.grid h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.grid p {
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+.contact {
+  background: #0f1115;
+}
+
+.phone {
+  margin-top: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #050505;
+  color: #aaa;
+}
+
+@media (max-width: 600px) {
+  .overlay h1 {
+    font-size: 46px;
+  }
+
+  .overlay p {
+    font-size: 20px;
+  }
+}
